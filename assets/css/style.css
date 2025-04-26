@@ -39,3 +39,62 @@ html {
   .active {
     border-bottom: 1px solid #3a3a3a;
   }
+
+  
+#page-container {
+    position: relative;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+    min-height: 90vh;
+  }
+
+  #hero-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #hero-image {
+    height: 100%;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .hero-text {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #e75480;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hero-text h1 {
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  
