@@ -50,6 +50,7 @@ html {
     min-height: 90vh;
   }
 
+  /* hero image styling */
   #hero-outer {
     height: 400px;
     width: 100%;
@@ -97,4 +98,3 @@ html {
     font-weight: 500;
     line-height: 10px;
   }
-  
