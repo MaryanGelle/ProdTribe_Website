@@ -7,3 +7,35 @@ html {
   color: #3a3a3a;
   overflow-x: hidden;
 }
+
+/* logo styling */
+
+#logo {
+    float: left;
+    font-size: 200%;
+    line-height: 75px;
+  }
+
+  /*nav menu styling */
+  
+  #menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 75px;
+  }
+  
+  #menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #menu a:hover,
+  .active {
+    border-bottom: 1px solid #3a3a3a;
+  }
