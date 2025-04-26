@@ -100,10 +100,52 @@ html {
   }
 
 
-
-
+ /* article styling */
   #article2 {
     padding: 0 20px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  /*footer styling color, position */
+  #footer {
+    width: 100%;
+    color: #3a3a3a;
+    text-align: center;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-menu ul {
+    display: block;
+    margin-top: 10px;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  /*footer social networks styling */
+
+.social-networks {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 150%;
+  margin: 1%;
+  padding: 5%;
+  color: #3a3a3a;
+}
